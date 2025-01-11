@@ -22,7 +22,7 @@
             <h2>The Basic Language of the Web: HTML
             </h2>
             <img src="laura-jones.jpg" alt="Headshot of author Laura Jones" width="50" height="50"/>
-            <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+            <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
             </p>
             <img src="post-img.jpg" alt="HTML code on the screen" width="500" height="200"/>
         </header>
@@ -65,26 +65,26 @@
     </article>
     <aside>
         <h4>Related posts</h4>
-        <ul>
+        <ul class="related">
             <li>
                 <img src="related-1.jpg" alt="Man typing on laptop" width="75" height="75">
                 <a href="#">How to Learn Web Development</a>
             </li>
-            <p>By Jonas Schmedetmann</p>
+            <p class="related-author">By Jonas Schmedetmann</p>
             <li>
                 <img src="related-2.jpg" alt="Lightning in the sky" width="75" height="75">
                 <a href="#">The Unknown Powers of CSS</a>
             </li>
-            <p>By Jim Dillon</p>
+            <p class="related-author">By Jim Dillon</p>
             <li>
                 <img src="related-3.jpg" alt="Code on computer screen" width="75" height="75">
                 <a href="#">Why JavaScript is Awesome</a>
             </li>
-            <p>By Matilda</p>
+            <p class="related-author">By Matilda</p>
         </ul>
     </aside>
     <footer>
-        <p>Copyright&copy; 2027 by The Code Magazine</p>
+        <p id="copyright">Copyright&copy; 2027 by The Code Magazine</p>
         <small>Coded with ❤️ by MariaTheTech and <a href="https://github.com/mcamper/Code_Magazine">open-sourced.</a></small>
     </footer>
 
