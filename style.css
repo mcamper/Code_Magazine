@@ -77,6 +77,30 @@ li:last-child {
 li:nth-child(odd) {
     color: green;
 } */
- article p:last-child {
+ 
+/* Misconception: this won't work! */
+/* article p:last-child {
     color: red;
- }
+ }*/
+ /* This does work! */
+/* article p:last-child {
+    color: red;
+ } */
+  
+ /* Styling links */
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+a:visited {
+    color: #1098ad;
+}
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline wavy orangered;
+}
+a:active {
+    background-color: black;
+    font-style: italic;
+}
