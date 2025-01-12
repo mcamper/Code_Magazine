@@ -193,12 +193,12 @@ h2::after {
     right: -25px;
     color: #444;
 }
-/*FLOAT*/
+/*FLOAT
 .author-img {
     float: left;
 }
 .author {
-    /* padding-left: 80px; */
+   
     margin-top: 10px;
     float: left;
     margin-left: 20px;
@@ -213,7 +213,7 @@ nav {
     clear: both;
 }
 /* Clear fix hack */
-.clearfix::after {
+/*.clearfix::after {
     clear: both;
     content: '';
     display: block;
@@ -228,4 +228,4 @@ aside {
 }
 footer {
     clear: both;
-}
+} */
